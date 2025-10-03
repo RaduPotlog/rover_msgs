@@ -1,0 +1,9 @@
+float32 voltage
+float32 current
+float32 temperature
+float32 heatsink_temperature
+
+bool motor_states_data_timed_out
+bool driver_state_data_timed_out
+bool comm_error
+bool heartbeat_timeout
