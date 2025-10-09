@@ -15,6 +15,9 @@ rosidl_generate_interfaces(
   "msg/DriverState.msg"
   "msg/DriverStateNamed.msg"
   "msg/RoverDriverState.msg"
+  "msg/FaultFlag.msg"
+  "msg/RuntimeError.msg"
+
   DEPENDENCIES
   std_msgs)
 
