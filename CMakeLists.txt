@@ -18,6 +18,7 @@ rosidl_generate_interfaces(
   "msg/FaultFlag.msg"
   "msg/RuntimeError.msg"
   "msg/SystemStatus.msg"
+  "msg/GpioState.msg"
 
   DEPENDENCIES
   std_msgs)
